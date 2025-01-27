@@ -4,7 +4,7 @@
 <ul>
   <li>Gianmaria Fadda</li>
   <li>Riccardo Mauri</li>
-  <li>Laura Olivieri</li>
+  <li>Laura Oliveri</li>
   <li>Youssef Abdelmalak</li>
 </ul>
 <hr>
