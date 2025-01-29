@@ -57,3 +57,43 @@ describe('Fixed Tests', () => {
 </p>
 <hr>
 <img src="https://github.com/user-attachments/assets/9777256a-3345-4618-898d-22dc1b08a187" alt="Kata-1">
+<hr>
+<b>Codice Corretto</b>
+<hr>
+<p>const gridPosition = (name, position) => {
+  const row = Math.ceil(position / 3);
+  const col = position % 3 || 3;
+
+  if (position === 1) 
+    return ${name} starts from pole position;
+
+  if (row === 1) {
+    if (col === 1)
+      return ${name} starts from the top of the front row;
+    if (col === 2)
+      return ${name} starts from the middle of the front row;
+    if (col === 3)
+      return ${name} starts from the bottom of the front row;
+  }
+
+  const positionInRow = col === 1 ? 'top' : col === 2 ? 'middle' : 'bottom';
+  return ${name} starts from the ${positionInRow} of the ${row}${order(row)} row;
+};
+
+const order = (number) => {
+  const lastNumber = number % 10;
+  const lastTwoNumber = number % 100;
+
+  if (lastNumber === 1) 
+    return 'st';
+
+  if (lastNumber === 2) 
+    return 'nd';
+
+  if (lastNumber === 3) 
+    return 'rd';
+
+  return 'th';
+};</p>
+<hr>
+<img src="" alt="Kata-Solution-1">
