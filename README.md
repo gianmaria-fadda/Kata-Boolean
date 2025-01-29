@@ -103,7 +103,17 @@ const order = (number) => {
 <b>Codice Errato</b>
 <hr>
 <p>Sample Tests</p>
+<hr> 
+<p>const Test = require('@codewars/test-compat');
+
+describe("nbYear",function() {
+it("Basic tests",function() {    
+    Test.assertEquals(nbYear(1500, 5, 100, 5000), 15);
+    Test.assertEquals(nbYear(1500000, 2.5, 10000, 2000000), 10);
+    Test.assertEquals(nbYear(1500000, 0.25, 1000, 2000000), 94);
+    Test.assertEquals(nbYear(1000, 2.0, 50, 1214), 4, "Did you maybe forgot to round down population at the end of each year?");
+})})</p>
 <hr>
-<img src="" alt="Kata-2">
+<img src="https://github.com/user-attachments/assets/e70c8c1f-8445-496e-b8c9-ad415dce3193" alt="Kata-2">
 <hr>
 <b>Codice Corretto</b>
