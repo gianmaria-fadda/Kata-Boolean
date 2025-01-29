@@ -97,3 +97,13 @@ const order = (number) => {
 };</p>
 <hr>
 <img src="https://github.com/user-attachments/assets/977454a5-d7b8-4093-949a-48bf96b89d8f" alt="Kata-Solution-1">
+
+<h1>Secondo esercizio</h1>
+<h2>In breve: sapendo come cresce la popolazione di una città, calcolare quanti anni servono per arrivare ad un determinato valore</h2>
+<b>Codice Errato</b>
+<hr>
+<p>Sample Tests</p>
+<hr>
+<img src="" alt="Kata-2">
+<hr>
+<b>Codice Corretto</b>
