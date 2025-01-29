@@ -96,4 +96,4 @@ const order = (number) => {
   return 'th';
 };</p>
 <hr>
-<img src="" alt="Kata-Solution-1">
+<img src="https://github.com/user-attachments/assets/977454a5-d7b8-4093-949a-48bf96b89d8f" alt="Kata-Solution-1">
