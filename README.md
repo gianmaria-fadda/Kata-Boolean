@@ -165,4 +165,4 @@ describe("Fixed Tests", () => {
         }
     }
 }</p>
-<img src="" alt="Kata-3-Risolto">
+<img src="https://github.com/user-attachments/assets/f0217b0d-98b4-4e61-a700-2988158ccd76" alt="Kata-3-Risolto">
