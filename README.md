@@ -116,4 +116,17 @@ it("Basic tests",function() {
 <hr>
 <img src="https://github.com/user-attachments/assets/e70c8c1f-8445-496e-b8c9-ad415dce3193" alt="Kata-2">
 <hr>
+
 <b>Codice Corretto</b>
+<hr>
+<p>function nbYear(p0, percent, aug, p) {
+  let year = 0;
+    percent /= 100;
+  while (p0 < p) {
+    p0 += Math.floor(p0 * percent) + aug;
+    year++;
+  }
+  return year;
+}</p>
+<hr>
+<img src="" alt="Kata-2-Risolto">
