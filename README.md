@@ -129,4 +129,4 @@ it("Basic tests",function() {
   return year;
 }</p>
 <hr>
-<img src="" alt="Kata-2-Risolto">
+<img src="https://github.com/user-attachments/assets/1e6ae653-60f7-4e2a-8e00-77f3d0042350" alt="Kata-2-Risolto">
