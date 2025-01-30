@@ -130,3 +130,39 @@ it("Basic tests",function() {
 }</p>
 <hr>
 <img src="https://github.com/user-attachments/assets/1e6ae653-60f7-4e2a-8e00-77f3d0042350" alt="Kata-2-Risolto">
+<hr>
+<h1>terzo esercizio</h1>
+<h2>In breve: cercare un paio di occhiali nelle stringhe di un array!</h2>
+<b>Codice Errato</b>
+<hr>
+<p>Sample Tests</p>
+<hr>
+<p>const chai = require("chai");
+const assert = chai.assert;
+
+const doTest = (arr, expected) => 
+  it(`findGlasses(${JSON.stringify(arr)})`, () => assert.strictEqual(findGlasses(arr), expected))
+
+//Fixed Tests
+describe("Fixed Tests", () => {
+  doTest(['phone', 'O-O', 'coins', 'keys'], 1)
+  doTest(['OO', 'wallet', 'O##O', 'O----O'], 3)
+  doTest(['O_O', 'O-O', 'OwO'], 1)
+  doTest(['O--#--O', 'dustO---Odust', 'more dust'], 1)
+  doTest(['floor', 'the floor again', 'pockets', 'bed', 'cabinet', 'the top of my head O-O'], 5)
+  doTest(['OOOO----~OOO', '-------', 'OOOOOOO', 'OO-OO-OO-O'], 3)
+});</p>
+<hr>
+<img src="https://github.com/user-attachments/assets/5694a87b-6cfd-42be-a681-43b8fcd4332e" alt="Kata-3">
+<hr>
+<b>Codice Corretto</b>
+<hr>
+<p>function findGlasses(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        const item = arr[i];
+        if (/O[-]+O/.test(item)) {
+            return i;
+        }
+    }
+}</p>
+<img src="" alt="Kata-3-Risolto">
