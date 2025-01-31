@@ -195,3 +195,27 @@ Test.assertEquals(minimumBonus([20,30,40,30,20,10]),13)
 })})</p>
 <hr>
 <img src="https://github.com/user-attachments/assets/ed64abc9-c75f-4f32-ae8e-932e9d76670c" alt="Kata-4">
+<hr>
+<b>Codice Corretto</b>
+<hr>
+<p>
+  function minimumBonus(scores) {
+    let bonus = Array(scores.length).fill(1);
+
+  for (let i = 1; i < scores.length; i++) {
+        if (scores[i] > scores[i - 1]) {
+            bonus[i] = bonus[i - 1] + 1;
+        }
+    }
+    for (let i = scores.length - 2; i >= 0; i--) {
+        if (scores[i] > scores[i + 1]) {
+            bonus[i] = Math.max(bonus[i], bonus[i + 1] + 1);
+        }
+    }
+    let sum = 0;
+    for (let i = 0; i < bonus.length; i++) {
+        sum += bonus[i];
+    }
+    return sum;
+}
+</p>
