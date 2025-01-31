@@ -219,3 +219,4 @@ Test.assertEquals(minimumBonus([20,30,40,30,20,10]),13)
     return sum;
 }
 </p>
+<img src="https://github.com/user-attachments/assets/0bed6390-1caa-413b-aff0-921e370a2475" alt="Kata-4-Risolto">
