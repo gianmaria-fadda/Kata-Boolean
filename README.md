@@ -166,3 +166,32 @@ describe("Fixed Tests", () => {
     }
 }</p>
 <img src="https://github.com/user-attachments/assets/f0217b0d-98b4-4e61-a700-2988158ccd76" alt="Kata-3-Risolto">
+<hr>
+<h1>Quarto Esercizio</h1>
+<h2>In breve: calcolare i bonus di un gruppo di team in base a determinate regole.</h2>
+<b>Codice Errato</b>
+<hr>
+<p>Sample Test</p>
+<hr>
+<p>const Test = require('@codewars/test-compat');
+
+describe("Basic Tests", function(){ 
+it("It should works for basic tests.", function(){
+
+Test.assertEquals(minimumBonus([20,30,10,30,40,10,20,30,40,30]),20)
+
+Test.assertEquals(minimumBonus([10,20,30]),6)
+
+Test.assertEquals(minimumBonus([30,20,10]),6)
+
+Test.assertEquals(minimumBonus([30,20,20,10]),6)
+
+Test.assertEquals(minimumBonus([10,20,20,30]),6)
+
+Test.assertEquals(minimumBonus([20,20,20,20]),4)
+
+Test.assertEquals(minimumBonus([20,30,40,30,20,10]),13)
+
+})})</p>
+<hr>
+<img src="https://github.com/user-attachments/assets/ed64abc9-c75f-4f32-ae8e-932e9d76670c" alt="Kata-4">
